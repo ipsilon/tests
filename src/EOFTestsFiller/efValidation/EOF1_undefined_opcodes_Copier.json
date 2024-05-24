@@ -197,7 +197,7 @@
         "code": "0xef0001010004020001001404000000008000116001808080808080808080808080808080800c00",
         "results": {
           "Prague": {
-            "exception": "EOF_UndefinedInstruction",
+            "exception": "EOFException.UNDEFINED_INSTRUCTION",
             "result": false
           }
         }
@@ -843,7 +843,8 @@
         "code": "0xef000101000402000100140400000000800011600180808080808080808080808080808080ed00",
         "results": {
           "Prague": {
-            "result": true
+            "exception": "EOF_UndefinedInstruction",
+            "result": false
           }
         }
       },
