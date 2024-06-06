@@ -32,7 +32,8 @@
         "code": "0xef000101000402000100010400020000800000fe",
         "results": {
           "Prague": {
-            "result": true
+            "exception": "err: toplevel_container_truncated",
+            "result": false
           }
         }
       },
@@ -40,7 +41,8 @@
         "code": "0xef000101000402000100010400020000800000feaa",
         "results": {
           "Prague": {
-            "result": true
+            "exception": "err: toplevel_container_truncated",
+            "result": false
           }
         }
       }
